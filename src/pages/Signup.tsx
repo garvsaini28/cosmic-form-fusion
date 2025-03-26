@@ -47,9 +47,9 @@ const Signup = () => {
                 <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
               </svg>
             </div>
-            <h1 className="text-3xl font-bold mb-2">Join the Hackathon</h1>
+            <h1 className="text-3xl font-bold mb-2">Signup at CryptoMart</h1>
             <p className="text-muted-foreground">
-              Create an account to participate in the event
+              Create an account to continue
             </p>
           </div>
 
@@ -59,7 +59,7 @@ const Signup = () => {
 
         {/* Footer Text */}
         <div className="text-center mt-8 text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Hackathon Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} 2025 CryptoMart. All rights reserved.</p>
         </div>
       </div>
     </div>
