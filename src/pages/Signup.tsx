@@ -59,7 +59,7 @@ const Signup = () => {
 
         {/* Footer Text */}
         <div className="text-center mt-8 text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} 2025 CryptoMart. All rights reserved.</p>
+          <p>© {new Date().getFullYear()}  CryptoMart. All rights reserved.</p>
         </div>
       </div>
     </div>
