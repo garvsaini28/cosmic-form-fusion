@@ -19,7 +19,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       return storedTheme || systemPreference;
     }
     
-    return "light";
+    return "dark"; // Default to dark theme
   });
 
   useEffect(() => {
