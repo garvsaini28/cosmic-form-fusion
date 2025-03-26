@@ -14,7 +14,7 @@ const Index = () => {
       
       <div className="max-w-3xl w-full text-center space-y-8 animate-fade-in">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-          Welcome to the Hackathon
+          Welcome to CryptoMart
         </h1>
         
         <p className="text-xl text-muted-foreground max-w-xl mx-auto">
@@ -32,11 +32,12 @@ const Index = () => {
           </button>
           
           <button 
+            onClick={() => navigate("/signup")}
             className="px-8 py-3 rounded-xl border border-input bg-background 
             hover:bg-secondary transition-smooth focus:outline-none focus:ring-2 
             focus:ring-primary/20 focus:ring-offset-2"
           >
-            Learn More
+            Sign Up
           </button>
         </div>
       </div>
